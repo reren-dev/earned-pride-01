@@ -12,10 +12,11 @@ nothing but the entry.
 
 import os
 
-# Draft line: a fisherman who never learned to read, sounding out his
-# newborn son's name on the birth certificate. Concrete scene, a real
-# person, a lifetime of effort landing in the last word.
-LINE = "The night his son was born, the fisherman who had never learned to read sounded out the birth certificate, letter by letter, and read his boy's name aloud."
+# Revised line: the draft paused on a comma before "letter by letter" and
+# called him "boy" at the end. Dropping the comma lets the sounding-out run
+# in one breath, and "son" echoes the opening ("his son was born"), so the
+# line closes as one unit and the pride lands on the last word, "aloud".
+LINE = "The night his son was born, the fisherman who had never learned to read sounded out the birth certificate letter by letter and read his son's name aloud."
 
 
 def main() -> None:
